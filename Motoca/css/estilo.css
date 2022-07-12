@@ -1,0 +1,213 @@
+body{
+
+	font-family: 'Times New Roman', Times, serif;
+	background-image: url(../img/fundo.png);
+    background-repeat: repeat no-repeat;
+    border: 0px solid #000;
+    border-radius: 0px;
+    margin-top: 110px;
+}
+
+#container{
+	margin: auto;
+	width: 962px;
+	background-color: rgba(255, 255, 255, 0.281);
+}
+
+.imgGeral {
+
+	background-image: url(../img/imagensB.png);
+	width: 170px;
+	height: 200pX;
+}
+
+.imgGeral .posLogo {background-image: url(../img/imagensB.png);}
+.caixa{
+	background-position: -515px 232px; 
+    width: 145px;
+    height: 119px;
+}
+
+.posLogo{
+    position: absolute;
+    left: 13%;
+    top: 5%;
+    border: 1px solid #333;
+}
+
+.menu{
+	width: 962px;
+	height: 45px;
+	background-color: hsl(0deg 0% 19%);	
+}
+
+.menu ul {
+    margin-top: 20px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 15px;
+	float: right;
+}
+
+.menu ul li a{
+	font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: hsl(0deg 0% 46%);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+	color: #566a94;
+}
+
+.banner{
+ 	
+	background-image: url(../img/banner.png);
+	width: 100%;
+	height: 390px;
+	background-position: auto;
+	border-bottom: 1px solid #757575;  
+    border-radius: 0px;
+    margin: auto;
+}
+
+.produto{
+    display:grid;
+    gap: 10px; 
+}
+
+.produto .box{
+    border: 1px solid #757575;  
+    width: 100%;
+    height: 300px; 
+}
+
+.imgProd {background-image: url(../img/imagensA.png);}
+
+.produto .posProd-1{background-position: 0px 160px;}
+.produto .posProd-2{background-position: 395px 160px;}
+.produto .posProd-3{background-position: 257px 160px;}
+.produto .posProd-4{background-position: 133px 160px;}
+
+.produto .caixa{
+    width: 123px;
+    height: 142px;
+    position: absolute;
+    margin: 34px 0px 0px 50px;
+}
+
+.produto h3 {
+    color: hsl(0deg 0% 25%);
+    font-size: 20px;
+    text-transform: uppercase;
+    grid-column: span 4;
+    padding: 6px 0px 4px 16px;
+    font-weight: bold;
+    
+}
+
+.produto h6{
+    color:rgb(126, 125, 125);
+    font-size: 20px;
+    float: left;
+    padding: 198px 0px 0px 14px;
+}
+
+.produto p{
+    color: red;
+    font-size: 14px;
+    float: right;
+    margin: 56px;
+}
+
+.servicos{
+    display: grid;
+    gap: 16px;
+    justify-content: space-between;
+    width: 100%;
+	height: 250px;   
+    
+}
+.servicos .box{
+	height: 250px;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.servicos .caixa{
+    width: 100%;
+    height: 100px; 
+}
+
+.servicos .posServ-1{background-position: 664px 152px;}
+.servicos .posServ-2{background-position: 664px 251px;}
+
+.servicos h3 {
+    color: hsl(0deg 0% 25%);
+    font-size: 20px;
+    text-transform: uppercase;
+    grid-column: span 2;
+    padding: 6px 0px 4px 16px;
+    font-weight: bold;
+}
+
+.servicos p {
+    margin: 8px 0px 0px 16px;
+    text-align:justify;
+}
+
+.box h3{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding: 0px 0px 8px 0px;
+
+}
+
+li.posRede-1, .posRede-2, .posRede-3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+li.posRede-1{
+    background-image: url(../img/imagensB.png);
+    background-position: 620px 313px;
+}
+li.posRede-2{
+    background-image: url(../img/imagensB.png);
+    background-position: 4006px 312px;
+}
+li.posRede-3{
+    background-image: url(../img/imagensB.png);
+    background-position: -24px 314px;
+}
+
+.rodape {
+    background-color: hsl(0deg 0% 19%);
+    width: 100%;
+    height: 50px;
+    margin: 50px 0px 0px 0px;
+}
+
+.rodape ul {
+    text-align: right;
+    padding: 7px 12px 0px 0px;
+    margin: -10px 0px 0px 0px;
+    
+}
+
+.rodape li {
+    display: inline-block;
+    
+}
+
+.rodape p {
+    position: absolute;
+    color: hsl(0deg 0% 50%);
+    position: absolute;
+    margin: 0px 0px 0px 28px;
+    padding: 18px 0px 0px 0px;
+}

@@ -1,0 +1,238 @@
+body{
+	font-family: verdana, arial, tahoma;
+	font-size: 14px;
+	color: black;
+	background-color: #f7f7f7;
+}
+
+#container{
+	width: 1000px;
+	background-color: #333;
+	border: 1px solid #000;
+	margin: auto;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.cabecalho{
+	height: 86px;
+	width: 100%;
+}
+
+.cabecalho .logo{
+	background-image: url(../img/logo.jpg);
+	width: 221px;
+	height: 82px; 
+	float: left;
+}
+
+.cabecalho .menu{
+	width: 510px;
+	height: 80px;
+	float: right;
+}
+
+.menu ul {
+    margin-top: 20px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.menu ul li a{
+	font-family: tahoma;
+    text-transform: uppercase;
+    color: #b0aaaa;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+	color: #e4ad0c;
+
+}
+
+
+.banner{
+	/* border: 1px solid red; */
+    height: 224px;
+    width: 100%;
+    background-color: #eeeeee;
+    border-radius: 20px;
+}
+
+.banner .imagem {
+    background-image: url(../img/bannerCelular.jpg);
+    width: 301px;
+    height: 216px;
+    float: right;
+    margin-right: 19px;
+    margin-top: 8px;
+}
+
+
+.conteudo h1 {
+    color: #e6ac0c;
+    font-size: 50px;
+    margin-left: 23px;
+    margin-top: 19px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: tahoma;
+}
+
+
+.conteudo h3 {
+    color: #999;
+    font-size: 25px;
+    margin-left: 23px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h3 span{
+	color: #e6ac0c;
+	background-color: #000; 
+}
+
+.conteudo p{
+	font-size: 17px;
+    color: #b0a7a7;
+    margin-left: 23px;
+}
+
+
+.banner a, .box a{
+	background-color: #e3ac0b;
+    height: 34px;
+    width: 122px;
+    display: inline-block;
+    margin: 20px 0 0 34px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    border-top: 1px solid #ffe28f;
+}
+
+.banner a:hover, .box a:hover{
+	background-color: orange;
+}
+
+hr{
+	border: 15px solid #e3ac0b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.celulares{
+	/*border: 1px solid red;*/
+}
+
+
+.celulares > h2, .quemsomos h2{
+	font-size: 22px;
+	color: #e3ac0b;
+	border-bottom:  1px solid #e3ac0b; 
+	text-transform: uppercase;
+}
+
+.celulares > h2 span{
+	color: #fff;
+	font-size: 30px;
+	margin-right: 10px;
+} 
+
+
+.produtos{
+	background-color: #eeeeee;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+ }
+
+.produtos .box{
+   
+    width: 218px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+.box .imgConf{
+    width: 121px;
+    height: 172px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.box .imgCel-1{
+    background-image: url(../img/celular1.jpg);
+}
+
+.box .imgCel-2{
+    background-image: url(../img/celular2.jpg);
+}
+
+.box .imgCel-3{
+    background-image: url(../img/celular3.jpg);
+}
+
+.box .imgCel-4{
+    background-image: url(../img/celular4.jpg);
+}
+
+.box h2{
+    font-size: 16px;
+    color: #e3ac0b;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box p{
+    text-align: center;
+    color: #999;
+}
+
+.box p span{
+    font-weight: bold;
+    color: tomato;
+}
+
+.box a {
+    margin: 20px;
+}
+
+.quemsomos .imgQuemSomos{
+    background-image: url(../img/quemsomos.jpg);
+    width: 275px ;
+    height: 188px ;
+    float: left;
+    margin-right: 20px;
+}
+
+.quemsomos p{
+    margin-top: 20px;
+}
+
+.rodape{
+    height: 20px;
+    color: #fff;
+}
+
+.rodape .left{
+    float: left;
+}
+
+.rodape .right{
+    float: right;
+}

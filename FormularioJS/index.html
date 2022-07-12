@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Formulario Master</title>
+	<script src="js/script.js" ></script>
+</head>
+<body>
+	<div id="container">
+		<form name="form" action="enviado.html">
+			<div class="box" id="box">
+				<div class="cabecalho">
+					<h1>formulário de contato</h1>
+					<div class="box">
+						<div class="caixa preto" onclick="mudarCor(1)"></div>
+						<div class="caixa vermelho" onclick="mudarCor(2)"></div>
+						<div class="caixa verde" onclick="mudarCor(3)"></div>
+						<div class="caixa azul" onclick="mudarCor(4)"></div>
+					</div>
+				</div>
+				<div class="conteudo">
+					<label for="nome">
+						<span>Nome</span>
+						<input type="text" id="nome" required>
+					</label>
+
+					<label for="email">
+						<span>E-Mail</span>
+						<input type="text" id="email" required>
+					</label>
+
+					<label for="assunto">
+						<span>Assunto</span>
+						<input type="text" id="assunto" required>
+					</label>
+
+					<label for="mensagem">
+						<span>Mensagem</span>
+						<textarea id="mensagem" cols="30" rows="10" required></textarea>
+					</label>
+				</div>
+				<div class="acao">
+					<input type="submit" value="validar 1" class="botao">
+
+					<input type="button" value="validar 2" class="botao" onclick="validar2()">
+
+					<input type="button" value="validar 3" class="botao" onclick="validar3()">
+
+					<input type="button" value="limpar" class="botao" onclick="limparDados()">
+				</div>
+
+			 <div class="msgErro" id="msgErro"></div>
+
+			</div>
+		</form>
+	</div>
+
+
+</body>
+</html>

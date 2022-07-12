@@ -1,0 +1,41 @@
+body{
+	background-color: #999;
+}
+
+#container{
+	margin: auto;
+	width: 500px;
+	border: 1px solid #fff;
+	margin-top: 50px;
+	background-color: #fff;
+	padding: 20px;
+}
+
+.menu{
+	height: auto;
+    width: 340px;
+    margin: auto;
+}
+
+.imagens{background-image: url(../img/imagens.png);}
+.box{
+	border: 1px solid #333;
+	width: 80px;
+	height: 88px;
+	background-color: yellow;
+	display: inline-block;
+}
+
+.img-1{background-position: 383px 186px;}
+.img-2{background-position: 503px 181px;}
+.img-3{background-position: 593px 181px;}
+.img-4{background-position: 684px 186px;}
+.img-5{background-position: 678px 302px;}
+.img-6{background-position: 768px 302px;}
+.img-7{background-position: 874px 296px;}
+.img-8{background-position: 972px 296px;}
+
+ul li:hover{
+	background-color: orange;
+	background-position: 593px 181px;
+}

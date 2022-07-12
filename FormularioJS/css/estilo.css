@@ -1,0 +1,136 @@
+body{
+	font-size: 14px;
+	font-family: arial, verdana;
+	background-color: #ccc;
+}
+
+#container{
+	width: 900px;
+	margin: auto;
+	margin-top: 20px;
+	border: 1px dashed red;
+	position: relative;
+}
+
+.box{
+	background-color: #333;
+	border: 2px solid #000;
+	margin: 20px;
+}
+
+.cabecalho{
+	height: 40px;
+	background-color: #999;
+}
+
+.cabecalho h1{
+	font-weight: bold;
+	font-size: 19px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-left: 20px;
+	line-height: 16px;
+	display: inline-block;
+}
+
+.cabecalho .box{
+	float: right;
+	width: 200px;
+	border: none;
+	height: 21px;
+	margin: 8px;
+	background-color: transparent;
+}
+
+.caixa{
+	width: 20px;
+	height: 20px;
+	border: 2px solid #000;
+	display: inline-block;
+	float: right;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+.preto{background-color: black;}
+
+.azul{background-color: blue;}
+
+.vermelho{background-color: red;}
+
+.verde{background-color: green;}
+
+.conteudo label{
+	display: block;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #161712;
+	border-bottom:  1px solid #161712;
+	line-height: 37px;
+}
+
+.conteudo span{
+	width: 100px;
+    text-align: right;
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding-right: 20px;
+    color: #bbb;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.conteudo h1{
+	text-align: center;
+	color: #fff;
+}
+
+.conteudo input[type=text], .conteudo textarea  {
+	padding: 10px 10px;
+	width: 300px;
+	background-color: #262626;
+	color: #fff;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left: 1px double #333;
+	border-right: 1px double #333;
+	font-size: 16px;
+}
+
+.conteudo textarea{ width: 600px}
+
+
+.acao{
+	height: 51px;
+	background-color: #666;
+	text-align: right;
+}
+
+.acao .botao{
+	padding: 4px 7px;
+    background-color: #999;
+    border: 1px double #bbb;
+    margin: 0 0 10px 0;
+    margin-top: 12px;
+    margin-right: 14px;
+    width: 109px;
+    color: #333;
+    border-radius: 5px;
+}
+
+.acao .botao:hover{
+	background-color: #333;
+    color: #bbb;
+}
+
+.msgErro {
+    width: 100%;
+    height: 150px;
+    border: 1px dashed tomato;
+
+    display: none;
+    color: #fff;
+    font-size: 22px;
+    line-height: 51px;
+}
+
