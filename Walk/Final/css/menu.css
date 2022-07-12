@@ -1,0 +1,41 @@
+body{
+	color: red;
+	font-family: arial, verdana, tahoma;
+	font-size: 12px;
+}
+
+#logo{
+	background-image: url(../img/logo.png);
+	width: 400px;
+	height: 106px;
+}
+
+#menu{
+	width: 100%;
+	background-color: #000;
+	border-radius: 20px;
+	border-left: 1px solid tomato ;
+	border-right: 1px solid tomato;
+	border-bottom: 1px solid tomato;
+	height: 40px;
+}
+
+
+ul{
+	line-height: 40px;
+}
+
+ul li{
+	display: inline;
+}
+
+ul li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 13px;
+}
+
+ul li a:hover{
+	background-color: tomato;
+	color: yellow;
+}
